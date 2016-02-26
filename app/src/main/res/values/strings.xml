@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginTemplate</string>
+    <string name="facebook_app_id">989021421166672</string>
+
+    <string name="login_for_kakao">카카오 로그인</string>
+    <string name="login_for_naver">네이버 로그인</string>
+    <string name="login_for_goole">구글 로그인</string>
+    <string name="login_for_facebook">페이스북 로그인</string>
+    <string name="login_for_instagram">인스타그램 로그인</string>
+</resources>

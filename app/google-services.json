@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_id": "logintemplate-android",
+    "project_number": "55454776396",
+    "name": "LoginTemplate-Android"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55454776396:android:8c783845a8035d65",
+        "client_id": "android:com.posteet.sample.logintemplate_android",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.posteet.sample.logintemplate_android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
