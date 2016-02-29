@@ -1,4 +1,4 @@
-package com.posteet.sample.logintemplate_android;
+package com.posteet.sample.logintemplate_android.LoginTemplate;
 
 /**
  * Created by thomas on 16. 2. 26..

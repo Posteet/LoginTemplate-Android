@@ -42,18 +42,20 @@
         android:onClick="onLoginViaFacebook"
         android:text="@string/login_for_facebook" />
 
-    <com.nhn.android.naverlogin.ui.view.OAuthLoginButton
+    <Button
         android:id="@+id/btn_naver_login"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_above="@+id/btn_kakao_login"
-        android:layout_marginBottom="4dp" />
+        android:onClick="onLoginViaNaver"
+        android:text="@string/login_for_naver"/>
 
-    <com.kakao.usermgmt.LoginButton
+    <Button
         android:id="@+id/btn_kakao_login"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
+        android:onClick="onLoginViaKakao"
         android:text="@string/login_for_kakao" />
 
 </RelativeLayout>
