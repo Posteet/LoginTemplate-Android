@@ -96,7 +96,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onLoginViaInstagram(View view) {
-        // jeongthomas5491
         login(LoginType.Instagram);
     }
 
