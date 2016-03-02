@@ -26,7 +26,8 @@ dependencies {
 
     compile group: project.KAKAO_SDK_GROUP, name: 'kakaolink', version: project.KAKAO_SDK_VERSION
     compile group: project.KAKAO_SDK_GROUP, name: 'usermgmt', version: project.KAKAO_SDK_VERSION
+
     compile 'com.facebook.android:facebook-android-sdk:4.10.0'
-    compile  'com.github.thelester:Instagram-Helper:1.0.0'
+    compile 'com.github.thelester:Instagram-Helper:1.0.0'
     compile 'com.google.android.gms:play-services-auth:8.4.0'
 }
