@@ -5,12 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.auth.api.signin.GoogleSignInResult;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
 import com.posteet.sample.logintemplate_android.LoginTemplate.ILogin;
 import com.posteet.sample.logintemplate_android.LoginTemplate.ILogin.OnLoginCompletion;
 import com.posteet.sample.logintemplate_android.LoginTemplate.LoginError;
@@ -108,16 +103,6 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         loginController.getCurrentLogin().handleActivityResult(requestCode, resultCode, data);
-    }
-
-    private void handleSignInResult(GoogleSignInResult result) {
-        if (result.isSuccess()) {
-            final GoogleSignInAccount acct = result.getSignInAccount();
-            statusTextView.setText(acct.getDisplayName() + "\n"
-                    + acct.getEmail());
-        } else {
-            Toast.makeText(this, "Google Login failed", Toast.LENGTH_SHORT).show();
-        }
     }
 
 }
